@@ -11,7 +11,7 @@ for n in range(2500):
     url = 'https://api.mail.tm/accounts'
     headers = {'accept': 'application/ld+json', 'Content-Type': 'application/json'}
 
-    with open('bd.txt', 'a') as f:
+    with open('baza.txt', 'a') as f:
       for _ in range(8):
 
         email_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(6))
