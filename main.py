@@ -5,8 +5,8 @@ import string
 import time
 import os
 
-for n in range(2500):
 
+while True:
   def create_email():
     url = 'https://api.mail.tm/accounts'
     headers = {'accept': 'application/ld+json', 'Content-Type': 'application/json'}
