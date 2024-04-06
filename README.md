@@ -1,6 +1,17 @@
-# TempMailApi
-TempMailApi - это программа, которая использует mail.tm. Программа генерирует 8 почтовых ящиков в секунду, а в случае неудачи выводит сообщение об этом в консоль.
-Я очень прошу вас указывать создателя при раздаче файлов.
+# TempMailApi - программа для создания временных почтовых ящиков.
 
-TempMailApi is a program that uses mail.tm. The program generates 8 mailboxes per second, and if unsuccessful, displays a message about it in the console.
-I really ask you to specify the creator when distributing files.
+FunBoostApi - это удобный инструмент для автоматизации взаимодействия с сайтом [MailTm](https://mail.tm)
+
+## Что необходимо для работы с кодом?
+
+Прежде всего, убедитесь, что у вас установлены необходимые модули, используя менеджер пакетов [pip](https://pip.pypa.io/):
+```bash
+pip install requests
+pip install json
+pip install random
+pip install string
+pip install time
+pip install os
+```
+## Зачем использовать Api, когда можно просто зайти на сайт?
+Вы не должны будите придумывать имя почтового ящика, код сделает это за Вас.
