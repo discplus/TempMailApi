@@ -1,12 +1,24 @@
 import requests
 import json
+from colorama import init, Fore
 import random
 import string
 import time
 import os
 
+init()
+
+print(Fore.CYAN + "Программа разработана discplus.")
+print("Ссылка на GitHub: https://github.com/discplus")
+print("Ссылка на файл: https://github.com/discplus/TempMailApi")
+for x in range(5):
+    print()
+
+
+
 
 while True:
+
   def create_email():
     url = 'https://api.mail.tm/accounts'
     headers = {'accept': 'application/ld+json', 'Content-Type': 'application/json'}
@@ -34,8 +46,9 @@ while True:
 
           f.flush()
           os.fsync(f.fileno())
+          print("Почтовый ящик успешно создался!")
         else:
-          print('Произошла ошибка при создании почтового ящика. Проверьте введенные данные.')
+          print('Произошла ошибка при создании почтового ящика.')
 
         time.sleep(1/8)  
 
