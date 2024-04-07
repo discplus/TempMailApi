@@ -9,6 +9,7 @@ FunBoostApi - это удобный инструмент для автомати
 pip install requests
 pip install json
 pip install random
+pip install colorama
 pip install string
 pip install time
 pip install os
